@@ -13,14 +13,16 @@ let number = 40;
 
 if (number >= 90 && number <= 100) {
     console.log("A");
-} else if (number >= 80 && number < 90) {
+} else if (number >= 80 && number <= 89) {
     console.log("B");
-} else if (number >= 70 && number < 80) {  
+} else if (number >= 70 && number <= 79) {  
     console.log("C");
-} else if (number >= 60 && number < 70) {  
+} else if (number >= 60 && number <= 69) {  
     console.log("D");
-} else {
+} else if ( number >= 0 && number <=59){
     console.log("F");
+}else {
+    console.log("Calificacion invalida");
 }
 
 
